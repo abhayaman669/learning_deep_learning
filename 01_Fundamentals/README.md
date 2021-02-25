@@ -1,9 +1,22 @@
 # Deep Learning Fundamentals
 
-## What is machine learning?
+## Contents
+
+- What is Machine Learning?
+- What is Deep Learning?
+
+## What is Machine Learning?
 
 According to **Arthur Samuel** machine learning is the field of study that gives computers the ability to learn without being explicitly programmed.
   
 In machine learning we rather than wirting set of instruction to accomplish a particular task we train the machine.
   
 For example, let's say we want to make a system that will check if a particular message is positive or negative. To accomplish this in **traditional programming** we will make an algorithm and give a list of positive and negative words and then check occurence of them in the message and then decide if the message is positive or negative. Whereas, in **machine learning** we provide a set of data to the a machine learning algorithm and let it learn to classify the message as positive or negative.
+
+## What is Deep Learning?
+
+Deep learning is the subfield of **machine learning** inspired by the structure and function of human brain neural network. This learning can occur in either in supervised or unsupervised form.
+
+In **Supervised Learning** we have already the right answer. And our algorithm try to learn using that data and then try to predict the output for the new data. For example, we have given the data of house area with their price we can learn using this and then can predict price for a particular house with area X (let's say).
+
+In **Unsupervised Learning** we have little or no idea about what our result should look like. In this case we use different way to derive structure or cluster. For example, you have data for 10,00,000 genes and you need to find a way to automatically group them.
