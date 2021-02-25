@@ -47,4 +47,16 @@ model = Sequrntial([
 - Here **Dense** is a type of layer.
 - **input_shape** argument is telling what is shape of the input beight provided.
 - **activation** defines the activation function used in the layer.
-- The first argument in the Dense is the no. of neurons
+- The first argument in the Dense is the no. of neurons.
+
+## Layers in ANN
+
+There are different types of layers like:
+
+- Dense
+- Convolutional
+- Pooling
+- Recurrent
+- Normalization
+
+Different layer perform different transformations on their inputs and different layers are better suited for different tasks.
