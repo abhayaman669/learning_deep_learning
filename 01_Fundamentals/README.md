@@ -60,3 +60,10 @@ There are different types of layers like:
 - Normalization
 
 Different layer perform different transformations on their inputs and different layers are better suited for different tasks.
+
+## Activation
+
+- An **activation** function will follow the layer.
+- it defines the output of the neuron.
+- **sigmoid activation** function will change the output to in range from 0 to 1
+- **ReLU** function will change the output to 0 if the output is negative else if will keep it same i.e. in python max(0, x) where x is an input from a neuron.
