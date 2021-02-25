@@ -67,3 +67,11 @@ Different layer perform different transformations on their inputs and different 
 - it defines the output of the neuron.
 - **sigmoid activation** function will change the output to in range from 0 to 1
 - **ReLU** function will change the output to 0 if the output is negative else if will keep it same i.e. in python max(0, x) where x is an input from a neuron.
+
+## Training a neural network
+
+To train a model you pass set of labled data into the NN then the neural network will try to predict the output and at last it will calculate the loss i.e. how good/bad it performed.
+
+## Learning in neural network
+
+After calculating the loss we find take the gradient/derivative of that loss with respect to a single weight. Then the value that we get is multiplied by the **learning rate** then we update the weight by the output that we get here.
