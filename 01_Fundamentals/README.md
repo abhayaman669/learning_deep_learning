@@ -75,3 +75,23 @@ To train a model you pass set of labled data into the NN then the neural network
 ## Learning in neural network
 
 After calculating the loss we find take the gradient/derivative of that loss with respect to a single weight. Then the value that we get is multiplied by the **learning rate** then we update the weight by the output that we get here.
+
+## Learning Rate
+
+The amount that the weights are updated during training is referred to as the step size or the **learning rate**. Specifically, the learning rate is a configurable hyperparameter used in the training of neural networks that has a small positive value, often in the range between 0.0 and 1.0
+
+## Overfitting
+
+When the NN is performing verry good at predecting on the training set but fails on predecting on test data. This occur because our model is good at predecting data on the training set but failed to generalise the data.
+
+**How to see if our model is overfitting**
+
+- if validation accuracy is worse than the training accuracy.
+- if during training model matrics were good but not at the time of testing.
+
+**Fixing overfitting**
+
+- provide more data to train model on
+- use data augmentation
+- reduce complexity in the model (reduce no. of neuron etc.)
+- use drop out
